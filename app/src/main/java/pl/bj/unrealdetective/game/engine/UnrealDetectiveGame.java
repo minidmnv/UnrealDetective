@@ -9,6 +9,7 @@ import android.media.SoundPool;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
 import pl.bj.unrealdetective.game.engine.enums.GameState;
+import pl.bj.unrealdetective.game.engine.phase.Phase;
 
 public class UnrealDetectiveGame extends SurfaceView {
 
@@ -34,6 +35,7 @@ public class UnrealDetectiveGame extends SurfaceView {
 
     //states etc.
     private GameState currentGameState;
+    private Phase currentGamePhase;
 
     public UnrealDetectiveGame(Context context, Point size) {
         super(context);
@@ -63,11 +65,4 @@ public class UnrealDetectiveGame extends SurfaceView {
 
     }
 
-    public void update() {
-
-    }
-
-    public void draw() {
-
-    }
 }
