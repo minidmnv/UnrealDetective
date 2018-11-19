@@ -8,8 +8,10 @@ import android.media.AudioAttributes;
 import android.media.SoundPool;
 import android.view.SurfaceHolder;
 import android.view.SurfaceView;
+import pl.bj.unrealdetective.game.engine.enums.GamePhase;
 import pl.bj.unrealdetective.game.engine.enums.GameState;
 import pl.bj.unrealdetective.game.engine.phase.Phase;
+import pl.bj.unrealdetective.game.engine.phase.PhaseFactory;
 
 public class UnrealDetectiveGame extends SurfaceView {
 
@@ -63,6 +65,10 @@ public class UnrealDetectiveGame extends SurfaceView {
 
     public void newGame() {
 
+    }
+
+    private void changePhase(GamePhase newPhase, int scenario) {
+        currentGamePhase = PhaseFactory.initialize(newPhase, scenario);
     }
 
 }
