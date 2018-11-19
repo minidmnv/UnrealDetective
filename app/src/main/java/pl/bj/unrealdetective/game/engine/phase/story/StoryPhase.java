@@ -1,4 +1,4 @@
-package pl.bj.unrealdetective.game.engine.phase.puzzle;
+package pl.bj.unrealdetective.game.engine.phase.story;
 
 import pl.bj.unrealdetective.game.engine.phase.Phase;
 
