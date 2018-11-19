@@ -1,7 +1,7 @@
 package pl.bj.unrealdetective.game.engine.phase;
 
 import pl.bj.unrealdetective.game.engine.enums.GamePhase;
-import pl.bj.unrealdetective.game.engine.phase.scenario.PuzzleScenario;
+import pl.bj.unrealdetective.game.engine.phase.puzzle.scenario.PuzzleScenario;
 
 public class PhaseFactory {
 
